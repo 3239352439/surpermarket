@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../libs/bootstrap-3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/before.css" />
+        <script src="../libs/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="../libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../libs/qrcode.js"></script>
+        <script type="text/javascript" src="../js/commin.js"></script>
+        <script type="text/javascript" src="../libs/socket_io.js"></script>
+        <script type="text/javascript" src="../js/before.js"></script>
+        
+
+
+    </head>
+    <body>
+        <main class="main">
+            <div id="manus">
+                <h4><i class="glyphicon glyphicon-th"></i><input type="text" class="ser" /><i class="glyphicon glyphicon-search search"></i></h4>
+                <div class="sell">
+                    <p>销售时间：<span class="time">2017年11月26日 13:26:19</span></p>
+                    <p>销售单号:<span class="num">123456</span></p>
+                    <div class="sell_view">
+                        <ul>
+                            <li>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="row">编号</th>
+                                            <th scope="row">名称</th>
+                                            <th scope="row">单价(元)</th>
+                                            <th scope="row">数量</th>
+                                            <th scope="row">价格(元)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="goods">
+                                    </tbody>
+                                </table>
+
+                            </li>
+                        </ul>
+                    </div>        
+                </div>
+                <div class="totals">
+                    <ul>
+                        <li><span>会员</span><span class="member"></span></li>
+                        <li><span>合计</span><span class="sum">0</span></li>
+                        <li><span>折扣</span><span class="rebate">100%</span>%</li>
+                        <li><span>应收</span><span class="alltotal">0.00</span></li>
+                    </ul>
+                    <div class="btn">
+                        <button type="button" class="btn btn-danger btnover">结算</button>
+                    </div>
+                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="er">
+                        <div class="modal-dialog modal-sm" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="modal-body" id="qrcode">
+                                    
+                                </div>
+
+                                <div class="modal-footer">
+                                    <div class="onmsg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="right">
+                <div class="left_menus">
+                    <h4 id="Return">返回后台</h4>
+                    <ul>
+                        <li><input type="text" name="" id="reba"><button type="button" class="btn btn-success _rebate">折扣</button></li>
+                        <li><input type="text" name="" id="memb"><button type="button" class="btn btn-success _member">会员</button></li>
+                        <li><button type="button" class="btn btn-success _del">删除</button></li>
+                        <li><button type="button" class="btn btn-success _save">挂单</button></li>
+                        <li><button type="button" class="btn btn-success _out">取单</button></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </main>
+    </body>
+    <script type="text/javascript">
+        (function($){
+             $('#all').find('.type').eq(0).css('display', 'block').siblings('.type').css('display', 'none');
+
+            $('.top').on('click','li',function(){
+                $(this).addClass('atv').siblings('li').removeClass('atv');
+                $(this).addClass('atv').siblings('li').removeClass('atv');
+
+                $('#all').find('.type').eq($(this).index()).css('display', 'block').siblings('.type').css('display', 'none');
+            })
+
+            $('#Return').on('click',function(){
+                window.location.href="../index.html"
+            })
+        })(jQuery)
+
+        
+    </script>
+</html>

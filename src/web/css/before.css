@@ -1,0 +1,79 @@
+.main { display: flex; padding: 10px 18px 18px 15px; background-color: #282C2B; }
+
+.main #manus { margin-left: 100px; width: 900px; background-color: #fff; display: flex; flex-direction: column; float: left; }
+
+.main #manus > h4 { flex: 1; height: 48px; position: relative; color: #999999; margin: 0; }
+
+.main #manus > h4 input { width: 310px; margin-left: 590px; height: 48px; padding-left: 38px; font-size: 14px; }
+
+.main #manus > h4 i { position: absolute; }
+
+.main #manus > h4 .glyphicon-th { left: 600px; top: 14px; }
+
+.main #manus > h4 .glyphicon-search { right: 10px; top: 14px; }
+
+.main #manus .sell { background-color: #fff; margin-top: 5px; border-top: 1px solid #D3D0CB; overflow: auto; width: 900px; flex: 10; }
+
+.main #manus .sell > p { height: 33px; line-height: 33px; font-size: 16px; color: #333; padding: 0; margin: 0; padding-left: 10px; }
+
+.main #manus .sell .sell_view table { width: 100%; }
+
+.main #manus .sell .sell_view table thead { width: 100%; }
+
+.main #manus .sell .sell_view table thead tr { width: 100%; }
+
+.main #manus .sell .sell_view table thead tr th { text-align: center; height: 30px; line-height: 30px; }
+
+.main #manus .sell .sell_view table tbody { width: 100%; }
+
+.main #manus .sell .sell_view table tbody tr { width: 100%; }
+
+.main #manus .sell .sell_view table tbody tr td { text-align: center; height: 30px; line-height: 30px; }
+
+.main #manus .totals { flex: 1; border-top: 1px solid #D3D0CB; }
+
+.main #manus .totals ul { height: 60px; margin: 0; }
+
+.main #manus .totals ul li { font-size: 16px; float: left; height: 29px; width: 400px; line-height: 29px; padding: 0 20px; }
+
+.main #manus .totals ul li span:first-child { float: left; padding-left: 50px; }
+
+.main #manus .totals ul li span:last-child { float: right; position: relative; font-weight: bold; color: #B6B6B6; }
+
+.main #manus .totals ul li span:last-child i { position: absolute; width: 33px; height: 20px; border-radius: 5px; left: -36px; background-color: #FFA81D; color: #fff; top: 3px; font-size: 12px; line-height: 20px; text-align: center; }
+
+.main #manus .totals ul li:last-child span { color: #FF2825; }
+
+.main #manus .totals .btn { width: 100%; height: 49px; height: 49px; color: #fff; padding: 0; font-size: 18px; }
+
+.main #manus .totals .btn button { float: right; height: 48px; width: 154px; margin-right: 50px; border: none; background-color: #FF6666; }
+
+.main #manus .totals .btn button:first-child { border-right: 1px solid #fff; }
+
+.main #right { flex: 1; margin-left: 12px; display: flex; }
+
+.main #right .left_menus { width: 100px; float: left; text-align: center; }
+
+.main #right .left_menus > h4 { width: 93px; height: 52px; color: #9590A6; font-size: 16px; background-color: #625293; line-height: 48px; margin: 0; margin-bottom: 10px; }
+
+.main #right .left_menus ul { width: 100%; }
+
+.main #right .left_menus ul li button { width: 80px; height: 44px; margin: 6px; }
+
+.main #right .left_menus ul li input { float: left; width: 120px; height: 36px; border-radius: 8px; }
+
+.main .zhezhao { width: 2500px; height: 2500px; position: relative; left: -800px; top: -500px; background: #222; opacity: 0.3; z-index: 1; display: none; }
+
+.main .way { width: 500px; height: 300px; border: 1px solid #ccc; border-radius: 12px; padding: 10px; background: #fcfcfc; transform: translate(-35%, -100%); text-align: center; z-index: 2; }
+
+.main .way a { color: #111; text-decoration: none; }
+
+.main .way h2 { margin-bottom: 15px; }
+
+.main .way button { margin: 10px 0; }
+
+.main #eE { width: 200px; height: 200px; border: 1px solid #ccc; border-radius: 12px; padding: 10px; background: #fcfcfc; position: relative; transform: translate(-80%, -150%); text-align: center; display: none; z-index: 3; }
+
+.main #eE button { margin-top: 100px; }
+
+.main #queren { display: none; margin-top: 60px; }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pay</title>
+	<link rel="stylesheet" type="text/css" href="../libs/bootstrap-3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="../libs/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="../libs/socket_io.js"></script>
+    <script type="text/javascript" src="../libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/commin.js"></script>
+	<script type="text/javascript" src="../js/order.js"></script>
+    
+</head>
+<body>
+	<h1>付款</h1>
+	<div class="print">
+                        <div class="l_head">
+                            超市收银系统
+                        </div>
+                        <div class="contents">
+                            <p>销售时间：<span class="time"></span></p>
+		                    <p>销售单号:<span class="num"></span></p>
+                            <p>*******************************************</p>
+                            <table>
+                                <thead>
+                                    <th>商品名称</th>
+                                    <th>单价</th>
+                                    <th>数量</th>
+                                    <th>金额</th>
+                                </thead>
+                                <tbody>
+                                    <!-- <tr>
+                                        <td>凉茶</td>
+                                        <td>5</td>
+                                        <td>1</td>
+                                        <td>5</td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                            <p>*******************************************</p>
+                            <p class="total">总金额：<span class="allprice"></span></p>
+                        </div>
+                    </div>
+	<button type="button" class="btn btn-primary btn-lg btn-block" id="print">确认付款</button>
+
+</body>
+</html>

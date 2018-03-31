@@ -1,0 +1,120 @@
+/* 
+* @Author: Marte
+* @Date:   2017-11-25 10:04:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-11-29 15:10:37
+*/
+li{list-style: none;}
+*{padding: 0;margin: 0;}
+#top{text-align: center;height: 30px;background-color: #fff;}
+header{
+    height: 67px;background-color:#19B394 ;
+}
+header .hr{
+    float: right;width: auto;
+}
+header .hr li{
+    padding:0 30px;float: left;line-height: 67px;color:#fff;
+}
+header .hr li span{
+    margin-right: 5px;
+}
+main{
+    /*background: url('../img/star.jpg');*/
+    background-color: rgb(240, 243, 244);
+    min-height: 800px;
+}
+#ml{
+    width: 250px;background-color: #2A3542;float: left;min-height:800px;color:#fff;text-align: center;
+}
+#ml .home{
+    height: 60px;line-height: 60px;
+}
+#ml li{
+    left: 60px;line-height: 60px;
+}
+#ml span{
+    margin-right: 5px;
+}
+#ml li:hover,#ml .home:hover{
+    color:#58bc58;
+}
+#ml ul .lichild{
+    height: 0;overflow: hidden;
+}
+.mr_cont_wy{
+    float: left;
+}
+.mr_cont_wy table{
+    width: 1000px;
+    color:#fff;
+}
+
+ body{
+            position:relative;
+        }
+        .mr_cont_wy{
+            position:relative;
+            min-height: 800px;
+        }
+        .mr_cont_wy table{
+            color:#000;
+        }
+        .modify{
+            display: none;
+            border: 1px solid #999;
+            background: #fff;
+            position: absolute;
+            padding: 50px;
+            left:50%;
+            top:50%;
+            -webkit-transform: translate(-50%, -50%);
+               -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                 -o-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+        }
+        .modify p{
+            margin: 30px;
+        }
+        .modify p input{
+            border:1px solid #ccc;
+        }
+        #page{
+            float: right;
+        }
+        #page span{
+            display:inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            /*background:#fff;*/
+            margin-left: 2px;
+            float: left;
+        }
+        #page .active{
+            background:#19B394;
+        }
+        .header{
+            display:none;
+        }
+        #root{
+            border:1px solid #000;
+            position:absolute;
+            width: 300px;
+            height: 160px;
+            left:50%;
+            top:50%;
+            -webkit-transform: translate(-50%, -50%);
+            background:#ccc;
+            display:none;
+        }
+        #root h3{
+            text-align: center;
+            line-height: 60px;
+        }
+        #root p input{
+            width: 40px;
+            margin-left: 130px;
+        }

@@ -1,0 +1,38 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "gridform": "^0.1.7",
+    "gridfs-stream": "^1.1.1",
+    "iconv-lite": "^0.4.19",
+    "jsonwebtoken": "^8.1.0",
+    "line-reader": "^0.4.0",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "multer": "^1.3.0",
+    "mongoose": "^4.13.5",
+    "node-csv": "^0.1.2",
+    "socket.io": "^2.0.4",
+    "ws": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123cts/supermarket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/123cts/supermarket/issues"
+  },
+  "homepage": "https://github.com/123cts/supermarket#readme"
+}
